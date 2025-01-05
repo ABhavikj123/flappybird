@@ -1,0 +1,58 @@
+.signin-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[id="signin-btn"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[id="signin-btn"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .third-party-signin {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button[id="google-signin"], button[id="other-signin"] {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[id="google-signin"]:hover, button[id="other-signin"]:hover {
+    background-color: #f7f7f7;
+  }
+  
